@@ -5,7 +5,7 @@ var path = require('path');
 var articleone=
 {
   title:'Article One',
-  heading:'Hello Everyone',
+  heading:'Hello Everyone1',
   date:'Feb7,2017',
   content: `
             <p>
@@ -17,11 +17,23 @@ var articleone=
 var articletwo=
 {
   title:'Article Two',
-  heading:'Hello Everyone',
+  heading:'Hello Everyone2',
   date:'Feb8,2017',
   content: `
             <p>
             This is my first web page on article two.
+            </p>`
+  
+};
+
+var articlethree=
+{
+  title:'Article Three',
+  heading:'Hello Everyone3',
+  date:'Feb9,2017',
+  content: `
+            <p>
+            This is my first web page on article three.
             </p>`
   
 };
