@@ -14,6 +14,19 @@ var articleone=
   
 };
 
+var articletwo=
+{
+  title:'Article Two',
+  heading:'Hello Everyone',
+  date:'Feb8,2017',
+  content: `
+            <p>
+            This is my first web page on article two.
+            </p>`
+  
+};
+
+
 var htmlTemplate=`
 
   <html>
