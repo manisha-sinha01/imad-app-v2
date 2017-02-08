@@ -4,7 +4,8 @@ var path = require('path');
 var articleone={
   title:'Article One',
   heading:'Hello Everyone',
-  date:
+  date:'Feb7,2017',
+  
   
 };
 var app = express();
