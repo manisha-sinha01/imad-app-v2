@@ -1,7 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var articleone={
+var articleone=
+{
   title:'Article One',
   heading:'Hello Everyone',
   date:'Feb7,2017',
@@ -12,7 +13,7 @@ var articleone={
   
 };
 
-var HTMLtemplate =
+var htmlTemplate=
 {  
   <html>
     <head>
