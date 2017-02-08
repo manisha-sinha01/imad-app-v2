@@ -13,8 +13,8 @@ var articleone=
   
 };
 
-var htmlTemplate=
-{  
+var htmlTemplate=`
+
   <html>
     <head>
         <title>
@@ -44,9 +44,9 @@ var htmlTemplate=
         </div>
         </div>
     </body>
-</html>
+</html>`;
   
-};
+
 
 var app = express();
 app.use(morgan('combined'));
