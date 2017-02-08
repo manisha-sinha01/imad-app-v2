@@ -91,17 +91,11 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/article-one',function(req,res){
-   res.send(createTemplate(articleone));
+app.get(':/articleName',function(req,res){
+    //feature of express module to convert the : to names of article
+   res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/article-two',function(req,res){
-    res.send(createTemplate(articletwo));
-});
-
-app.get('/article-three',function(req,res){
-    res.send(createTemplate(articlethree));
-});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
