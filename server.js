@@ -5,7 +5,10 @@ var articleone={
   title:'Article One',
   heading:'Hello Everyone',
   date:'Feb7,2017',
-  content:
+  content: `
+            <p>
+            This is my first web page on article one.
+            </p>`
   
 };
 var app = express();
