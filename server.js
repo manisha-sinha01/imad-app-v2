@@ -1,8 +1,11 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var artcle-One={
-  title:Article One;  
+var articleone={
+  title:'Article One',
+  heading:'Hello Everyone',
+  date:
+  
 };
 var app = express();
 app.use(morgan('combined'));
