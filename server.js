@@ -5,7 +5,7 @@ var articleone={
   title:'Article One',
   heading:'Hello Everyone',
   date:'Feb7,2017',
-  
+  content:
   
 };
 var app = express();
