@@ -11,6 +11,39 @@ var articleone={
             </p>`
   
 };
+
+var HTMLtemplate={
+  
+  <html>
+    <head>
+        <title>${title}</title>
+        <meta name="viewport" content="widhth=device-width,initial-scale=1">
+         <link href="/ui/style.css" rel="stylesheet">
+    </head>
+    <body>
+       <div class="container"> 
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <br/>
+        <div>
+        <h1>
+           ${heading}
+        </h1>
+        </div>
+        <div>
+            ${date}
+        </div>
+        <div>
+        <p>
+           ${content}
+        </p>
+        </div>
+        </div>
+    </body>
+</html>
+  
+};
 var app = express();
 app.use(morgan('combined'));
 
