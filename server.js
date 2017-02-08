@@ -2,8 +2,9 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-var articleone=
+var articles=
 {
+   'article-one':{
   title:'Article One',
   heading:'Hello Everyone1',
   date:'Feb7,2017',
@@ -11,32 +12,30 @@ var articleone=
             <p>
             This is my first web page on article one.
             </p>`
-  
-};
-
-var articletwo=
-{
-  title:'Article Two',
-  heading:'Hello Everyone2',
-  date:'Feb8,2017',
-  content: `
+    },
+    
+  'article-two':{
+        title:'Article Two',
+       heading:'Hello Everyone2',
+       date:'Feb8,2017',
+        content: `
             <p>
             This is my first web page on article two.
             </p>`
-  
-};
-
-var articlethree=
-{
-  title:'Article Three',
+    },
+    
+   'article-three':{
+        title:'Article Three',
   heading:'Hello Everyone3',
   date:'Feb9,2017',
   content: `
             <p>
             This is my first web page on article three.
             </p>`
-  
+    },
 };
+
+
 
 function createTemplate(data){
     
